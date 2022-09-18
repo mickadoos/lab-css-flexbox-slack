@@ -5,3 +5,61 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+
+/* NAV */
+
+nav {
+    border: 5px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div {
+    border: 1px solid blue;
+}
+
+nav ul {
+    border: 1px solid blue;
+}
+
+.logo-container {
+    width: 20%;
+    margin-left: 50px;
+}
+
+.menu-container {
+    width: 10%;
+    text-align: center;
+    margin-right: 50px;
+    padding-top: 15px;
+}
+
+.menu-container img {
+    width: 100%;
+}
+
+nav img {
+    width: 100%;
+}
+
+/* ul {
+    width: 50%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0;
+    padding: 20px 0;
+} */
+
+
+
+/* HEADER  */
+
+header {
+    border: 5px solid rgb(255, 136, 0);
+}
+
+@media (max-width: 768px) {
+  
+}
