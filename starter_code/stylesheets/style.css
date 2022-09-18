@@ -15,9 +15,15 @@ body {
 
 h1 {
     font-family: 'DM Serif Display', serif;
+    color: #2C303F;
 }
 
-/* NAV */
+h2 {
+    font-family: 'DM Serif Display', serif;
+    color: #2C303F;
+}
+
+    /* NAV */
 
 nav {
     border: 5px solid red;
@@ -51,7 +57,7 @@ nav img {
 
 
 
-/* HEADER  */
+    /* HEADER  */
 
 header {
     border: 5px solid rgb(255, 136, 0);
@@ -61,6 +67,24 @@ header * {
     border: 1px solid blue;
 }
 
+
+    /* MAIN  */
+
+main {
+    border: 5px solid rgb(0, 255, 136);
+}
+
+main * {
+    border: 1px solid blue;
+}
+
+main hr {
+    color: #757575;
+}
+
+.brands {
+    background-color: #F4F3F4;
+}
 
 @media (max-width: 768px) {
   
@@ -99,5 +123,47 @@ header * {
         /* width: 50%; */
         margin: 16px auto;
         font-size: 1.7em;
+    }
+
+        /* MAIN  */
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .home-img {
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        
+    }
+
+    .discover {
+        width: 80%;
+        font-size: 2em;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    main button {
+        padding: 20px 200px;
+        color: #192592;
+        font-weight: 600;
+        font-size: 30px;
+        background-color: white;
+        border: 1px solid #192592a8;
+        border-radius: 8px;
+    }
+
+    main img {
+        width: 50%;
+        margin: 50px;
+    }
+
+    main hr {
+        width: 80%;
+        /* border-color:  ; */
     }
 }
