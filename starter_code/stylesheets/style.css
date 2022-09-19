@@ -26,13 +26,13 @@ h2 {
     /* NAV */
 
 nav {
-    border: 5px solid red;
+    /* border: 5px solid red; */
     display: flex;
     justify-content: space-between;
 }
 
 nav * {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .logo-container {
@@ -60,22 +60,22 @@ nav img {
     /* HEADER  */
 
 header {
-    border: 5px solid rgb(255, 136, 0);
+    /* border: 5px solid rgb(255, 136, 0); */
 }
 
 header * {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 
     /* MAIN  */
 
 main {
-    border: 5px solid rgb(0, 255, 136);
+    /* border: 5px solid rgb(0, 255, 136); */
 }
 
 main * {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 main hr {
